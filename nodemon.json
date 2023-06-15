@@ -1,0 +1,10 @@
+{
+  "exec": "npm run clean && npm run build && npm run server",
+  "watch": [
+    "src/*"
+  ],
+  "ignore": [
+    "**/__tests__/**",
+    "*.test.js"
+  ]
+}
